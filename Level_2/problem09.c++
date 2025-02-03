@@ -25,7 +25,7 @@ int digi_frec(int number , int digit){
 
 void all_dig(int number){
     int i ;
-    for ( i = 1 ; i <= 9; i++){
+    for ( i = 0 ; i <= 9; i++){
         if (digi_frec(number,i) > 0 ){
             cout << "The digit " << i << " freaquancy is : " << digi_frec(number,i) << " time(s)" << endl ;
         }
